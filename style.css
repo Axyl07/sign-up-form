@@ -13,29 +13,86 @@
     font-style: normal;
   } */
 
-*{
+  *{
+    margin: 0;
+    padding: 0;
+  }
+body{
     padding: 0;
     margin: 0;
     font-family: 'nunito' ,'sans-serif';
+ 
 }
 
 .main{
+    display: flex; 
+}
+
+.image{
+    background-image: url(./luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+    width: 40vw;
+    background-size: cover;
+    padding-top: 14.5vh;
+}
+
+.odin{
+    padding: 2vh;
+    background-color: rgba(13, 9, 11, 0.66);
+    justify-content: center;
+    align-items: center;
+    font-family: 'norse';
+    font-size: 50px;
+    color: #E5E7EB;
+    max-height: 40vh;
     display: flex;
 }
 
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.top,.bottom{
+    background-color: azure;
+}
 .top{
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    align-items: center;
+    gap: 1.5rem;
+    align-items: flex-start;
     padding: 10vh 5vw;
 }
 
 .middle{
+    font-size: 1.5em;
     padding: 5vh 5vw;
     display: flex;
     flex-direction: column;
+    gap: 5vh;
 }
+
+label{
+    font-size: 20px;
+}
+
+input{
+    font-size: 30px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+input:focus-visible{
+    border-color: aqua;
+}
+
+input[type='password']:invalid{
+    border: red;
+}
+
 form{
 display: flex;
 gap: 10.5rem;
@@ -50,10 +107,11 @@ flex-direction: column;
 }
 
 button{
+    font-size: 1.5rem;
     cursor: pointer;
     background-color: #596D48;
     color: rgb(255, 255, 255);
-    padding: 8px 15px;
+    padding: 8px 25px;
     border-radius: 10px;
     border: 2px solid grey;
     box-shadow: 5px  inset grey;
@@ -63,8 +121,10 @@ a{
     color: #596D48;
 }
 .bottom{
+    font-size: 25px;
     padding: 5vh 5vw;
     display: flex;
     flex-direction: column;
     align-items: self-start;
+   height: fit-content;
 }
