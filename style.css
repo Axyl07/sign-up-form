@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'norse';
+    src: url('./Norse-Bold.otf') format('truetype');
+  }
+
+  /* // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 200 to 1000 */
+  
+  /* .nunito-myfont {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'nunito' ,'sans-serif';
+}
+
+.main{
+    display: flex;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10vh 5vw;
+}
+
+.middle{
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+}
+form{
+display: flex;
+gap: 10.5rem;
+}
+.left-middle{
+display: flex;
+flex-direction: column;
+}
+.right-middle{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    cursor: pointer;
+    background-color: #596D48;
+    color: rgb(255, 255, 255);
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: 5px  inset grey;
+    margin-bottom: 15px;
+}
+a{
+    color: #596D48;
+}
+.bottom{
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
