@@ -84,13 +84,17 @@ input{
     font-size: 30px;
     border: 2px solid #E5E7EB;
     border-radius: 5px;
+    outline: none;
 }
-input:focus-visible{
-    border-color: aqua;
+input:focus{
+    outline: 1px solid rgb(0, 204, 255);
+    border: 1px solid rgb(0, 204, 255);
+    box-shadow: 1px 1px 10px;
 }
 
-input[type='password']:invalid{
-    border: red;
+input:invalid{
+    border:1px solid red;
+    outline: 1px solid red;
 }
 
 form{
