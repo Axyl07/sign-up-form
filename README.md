@@ -32,7 +32,7 @@ A simple, responsive sign-up form created using **HTML** and **CSS**. This proje
 ## 📸 Screenshots
 
 ![Sign-up Form](./screenshot.png)  
-*Example screenshot of the sign-up form (replace with actual image URL).*
+
 
 ## 📝 Usage
 
